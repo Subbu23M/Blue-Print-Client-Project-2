@@ -1,0 +1,122 @@
+// Colors
+$pinkColor:#E6AF;
+$yellowColor:#E6AF2E;
+$blackColor:#191716;
+$greyColor:#E0E2DB;
+
+nav ul{
+    // border-top:size type color
+    border-top: 6px solid $pinkColor;
+
+    background-color: $blackColor;
+}
+
+nav ul li a{
+    // Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.
+    display: block;
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: lightcoral;
+
+    // padding:top & bottom left & right
+    padding: 10px 25px;
+}
+
+nav ul li a:hover{
+    color: $greyColor;
+}
+
+.logo{
+    font-size: 35px;
+    margin-left: -2.5rem;
+    color: teal;
+    background-color: $yellowColor;
+    text-align: left;
+}
+
+.logo:hover{
+    background-color: $greyColor;
+    color: $yellowColor;
+}
+
+// Universal Effects
+    body{
+        font-family: 'Piazzolla', serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    button{
+        font-family: 'Piazzolla', serif;
+    }
+
+    button:focus{
+        outline: none;
+    }
+// End of Universal Effects
+
+
+
+.height{
+    min-height: 100vh;
+}
+
+#banner{
+    background: url(./christina-wocintechchat-com-faEfWCdOKIg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    // parallax affects
+    background-attachment:fixed;
+}
+
+#achievements{
+    height: 50vh;
+    background: url(./Employee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    // parallax affects
+    background-attachment:fixed;
+}
+
+.space{
+    letter-spacing: 0.2rem;
+}
+
+.about-image{
+    background: url(./jeswin-thomas-F1T6YoB2RY4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    // parallax affects
+    background-attachment:fixed;
+}
+
+.underline{
+    width: 50%;
+    height: 0.5rem;
+}
+
+.underline-contact{
+    width: 60%;
+    height: 0.5rem;
+}

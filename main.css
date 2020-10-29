@@ -1,0 +1,102 @@
+nav ul {
+  border-top: 6px solid #E6AF;
+  background-color: #191716;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: lightcoral;
+  padding: 10px 25px;
+}
+
+nav ul li a:hover {
+  color: #E0E2DB;
+}
+
+.logo {
+  font-size: 35px;
+  margin-left: -2.5rem;
+  color: teal;
+  background-color: #E6AF2E;
+  text-align: left;
+}
+
+.logo:hover {
+  background-color: #E0E2DB;
+  color: #E6AF2E;
+}
+
+body {
+  font-family: 'Piazzolla', serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-family: 'Piazzolla', serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+.height {
+  min-height: 100vh;
+}
+
+#banner {
+  background: url(./christina-wocintechchat-com-faEfWCdOKIg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#achievements {
+  height: 50vh;
+  background: url(./Employee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.space {
+  letter-spacing: 0.2rem;
+}
+
+.about-image {
+  background: url(./jeswin-thomas-F1T6YoB2RY4-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.underline {
+  width: 50%;
+  height: 0.5rem;
+}
+
+.underline-contact {
+  width: 60%;
+  height: 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */
