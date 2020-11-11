@@ -99,4 +99,30 @@ button:focus {
   width: 60%;
   height: 0.5rem;
 }
+
+.underline-one{
+    width: 150px;
+    height: 0.4rem;
+}
+
+.underline-two{
+    width: 170px;
+    height: 0.4rem;
+}
+
+
+.button-container{
+    .prev-btn,.next-btn{
+        border-color: transparent;
+        background-color: transparent;
+
+        color: hsl(205, 90%, 76%);
+        cursor: pointer;
+
+        transition: all 0.3s linear;
+
+        font-size: 2rem;
+        margin: 0 0.5rem;
+    }
+}
 /*# sourceMappingURL=main.css.map */
